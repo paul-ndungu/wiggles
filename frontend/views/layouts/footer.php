@@ -59,14 +59,14 @@
 <div class="col-lg-4 col-sm-6 footer-blog-">
 <h5>Latest Blogs</h5>
 <div class="single-blog-">
-  <div class="post-thumb"><a href="#"><img src="images/blog/blog-small.jpg" alt="blog"></a></div>
+  <div class="post-thumb"><a href="#"><img src="<?=yii::$app->request->baseUrl;?>/images/blog/blog-small.jpg" alt="blog"></a></div>
   <div class="content">
     <p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>April 15, 2020</span></p>
     <h4 class="title"><a href="blog-sngle.html">We Provide you Best &amp; Creative Consulting Service</a></h4>
   </div>
 </div>
 <div class="single-blog-">
-  <div class="post-thumb"><a href="#"><img src="images/blog/blog-small.jpg" alt="blog"></a></div>
+  <div class="post-thumb"><a href="#"><img src="<?=yii::$app->request->baseUrl;?>/images/blog/blog-small.jpg" alt="blog"></a></div>
   <div class="content">
     <p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>April 15, 2020</span></p>
     <h4 class="title"><a href="blog-sngle.html">We Provide you Best &amp; Creative Consulting Service</a></h4>
@@ -85,10 +85,10 @@
 </div>
 <div class="col-lg-8 v-center">
 <ul class="footer-badges-">
-  <li><a href="#"><img src="images/about/badges-a.png" alt="badges"></a></li>
-  <li><a href="#"><img src="images/about/badges-b.png" alt="badges"></a></li>
-  <li><a href="#"><img src="images/about/badges-c.png" alt="badges"></a></li>
-  <li><a href="#"><img src="images/about/badges-d.png" alt="badges"></a></li>
+  <li><a href="#"><img src="<?=yii::$app->request->baseUrl;?>/images/about/badges-a.png" alt="badges"></a></li>
+  <li><a href="#"><img src="<?=yii::$app->request->baseUrl;?>/images/about/badges-b.png" alt="badges"></a></li>
+  <li><a href="#"><img src="<?=yii::$app->request->baseUrl;?>/images/about/badges-c.png" alt="badges"></a></li>
+  <li><a href="#"><img src="<?=yii::$app->request->baseUrl;?>/images/about/badges-d.png" alt="badges"></a></li>
 </ul>
 </div>
 </div>

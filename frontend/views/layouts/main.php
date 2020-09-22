@@ -31,7 +31,11 @@ AppAsset::register($this);
 <div class="wrap">
    
     <?= $this->render('header.php') ?>
+    
      <?= $content ?>
+
+        
+
    
 </div>
     <?= $this->render('footer.php') ?>
